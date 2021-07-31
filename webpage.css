@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+.first_block{
+    background-image: url(../images/tyler-franta-iusJ25iYu1c-unsplash.jpg);
+    background-size: cover;
+}
+
+.color {
+    background-color: rgb(19 70 148 / 0.8);
+    display: flex;
+    height: 620px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_block {
+    background-color: #13255aa6;
+    width: 1256px;
+    box-shadow: 0px 4px 18px -4px black;
+}
+
+
+.nav {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.sec_block .logo {
+    /* background-color: #ffff; */
+    height: 35px;
+    align-items: center; 
+    display: flex;
+    margin-left: 100px;
+}
+
+
+.logo h3 {
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+.ul {
+    margin-right: 100px;
+}
+
+ul {
+    display: flex;
+}
+.ul li {
+    list-style-type: none;
+    padding-left: 40px;
+    font-family: calibri;
+}
+.ul li:hover{
+    cursor: pointer;
+}
+
+.containt{
+    margin: 62px 0px 0px 100px;
+    color: #fff;
+}
+
+.containt p{
+    padding-top: 15px;
+}
+
+.button {
+    padding: 30px 0px 0px 100px;
+}
+
+.button button {
+    padding: 6px 10px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #fff;
+}
+.button button{
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(135deg, rgb(26 136 126) 29%,#009688 55%,rgb(16 16 134) 100%);
+}
+
+.footer {
+    height: 150px;
+    margin-top: 168px;
+    background-color: #fff;
+}
+
+.footer h3 {
+    text-align: center;
+    padding-top: 40px;
+}
